@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activiy.NhapKho.AddNhapKhoActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/border">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm thông tin"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="#F48D8D"/>
+            <!--            <EditText-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:id="@+id/idNCC"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:background="@drawable/border"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:padding="16dp"-->
+            <!--                android:hint="Mã Nhà cung cấp"-->
+            <!--                android:gravity="start|center_vertical"-->
+            <!--                android:textColor="@color/design_default_color_primary"-->
+            <!--                />-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/tenSP"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tên Sản phẩm"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/design_default_color_primary"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/tenNCC"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tên Sản phẩm"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/design_default_color_primary"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/NgayNhap"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Ngày nhập"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/design_default_color_primary"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/SoLuongNK"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Số lượng"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/design_default_color_primary"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/GiaNK"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Giá nhập"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/design_default_color_primary"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Lưu"
+                android:id="@+id/BTNADD"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Thoát"
+                android:id="@+id/BTNEXIT"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/design_default_color_primary"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:text="Ngày xuất: "
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:text="Date"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:text="Số lượng:"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tv_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textStyle="italic"
+                android:textSize="22sp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/design_default_color_primary"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

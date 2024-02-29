@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dt"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyKho"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activiy.SanPham.ThongKeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhanVien.UpdateNVActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhanVien.AddNVActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhanVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.XuatKho.AddXuatKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.XuatKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.XuatKho.UpdateXuatKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhapKho.UpdateNhapKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhapKho.AddNhapKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhapKhoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.SanPham.UpdateSanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.SanPham.AddSanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhaCungCap.UpdateNhaCCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhaCungCap.AddNhaCCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.NhaCungCapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.SanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activiy.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

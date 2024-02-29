@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activiy.SanPham.AddSanPhamActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm thông tin"
+                android:textAlignment="center"
+                android:textColor="#F48D8D"
+                android:textSize="30sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:id="@+id/idNCC"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:background="@drawable/border"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:padding="16dp"-->
+            <!--                android:hint="Mã Nhà cung cấp"-->
+            <!--                android:gravity="start|center_vertical"-->
+            <!--                android:textColor="@color/design_default_color_primary"-->
+            <!--                />-->
+            <LinearLayout
+                style="@style/linear_h"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/imgHinhDaiDien"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+                <Button
+                    android:id="@+id/btnChonHinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="33dp"
+                    android:background="@drawable/button_del"
+                    android:text="Chọn Hình" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/TenSP"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Tên Sản phẩm"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/MoTa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Mô  tả"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Gia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Giá"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/SoLuongTK"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Số lượng tồn kho"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/NhaSX"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Nhà sản xuất"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/NamSX"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Năm sản xuất"
+                android:padding="16dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BTNADD"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Lưu"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/BTNEXIT"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Thoát"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
